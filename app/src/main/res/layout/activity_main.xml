@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_start_record_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Record" />
+
+    <Button
+        android:id="@+id/btn_stop_record_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Record" />
+
+    <Button
+        android:id="@+id/btn_play_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/btn_stop_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Play" />
+
+    <TextView
+        android:id="@+id/tv_audio_record_process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp" />
+
+</LinearLayout>
